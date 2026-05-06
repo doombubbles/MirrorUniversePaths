@@ -8,10 +8,12 @@ Mirror Universe Paths
 
 Adds a number of alternate tower path branches using [PathsPlusPlus](https://github.com/doombubbles/paths-plus-plus).
 
-<img alt="in-game screenshot" src="Screenshot.png" width="50%" align="left"/>
-<img alt="upgrade menu screenshot" src="Screenshot2.png" width="50%" align="right"/>
+<img alt="in-game screenshot" src="Screenshot.png" />
+<img alt="upgrade menu screenshot" src="Screenshot2.png" />
 
 Many paths are inspired by features of tier 3 towers that get overlooked/overwritten by the tier 4 and 5 upgrades in their path, but now have a new chance to shine with reimagined upgrades.
+
+# Mod Additions
 
 <!--Start-->
 
