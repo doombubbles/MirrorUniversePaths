@@ -97,6 +97,17 @@ jobs:
           wget https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/BloonsTD6%20Mod%20Helper/btd6.targets
 
 
+      - name: Download PathsPlusPlus
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: build.yml
+          branch: main
+          name: PathsPlusPlus.dll
+          repo: doombubbles/paths-plus-plus
+          path: ${{ env.BLOONSTD6 }}/Mods/
+
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
