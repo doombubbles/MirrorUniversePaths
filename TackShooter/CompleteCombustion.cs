@@ -16,7 +16,7 @@ public class CompleteCombustion : UpgradePlusPlus<TackFireNonRingPath>
     public override string Description => "Impossibly hot tacks roast Bloons with blazing efficiency.";
 
     public override string DetailedDescription =>
-        "Tack damage increased to 8 with +4 to MOABs, ranged increased by 11.5, pierce increased by 2x then +3, attack speed is tripled.";
+        "Same meteor attack as base 5xx. Tack damage increased to 8 with +4 to MOABs, ranged increased by 11.5, pierce increased by 2x then +3, attack speed is tripled.";
 
     public override void ApplyUpgrade(TowerModel towerModel, int tier)
     {

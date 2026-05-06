@@ -38,7 +38,7 @@ Tacks damage is increase to 5, and they have +2 pierce and +2 radius.
 
 <details>
 <summary>Impossibly hot tacks roast Bloons with blazing efficiency.</summary>
-Tack damage increase to 8 with +4 to MOABs, ranged increased by 11.5, pierce increased by 2x then +3, attack speed is tripled.
+Same meteor attack as base 5xx. Tack damage increased to 8 with +4 to MOABs, ranged increased by 11.5, pierce increased by 2x then +3, attack speed is tripled.
 </details>
 
 ## Sniper Monkey
@@ -150,7 +150,7 @@ Doesn't become a Temple or enact sacrifices, but is vengeful about it. Branches 
 
 <details>
 <summary>Walks the path of vengeance to enact untold ruin onto Bloons.</summary>
-Projectile damage increased to 13, can hit Purple Bloons.
+Projectile damage increased to 13, can hit Purple Bloons, range increased by +15
 </details>
 
 <img src='SuperMonkey/VengefulGod.png' height=50 align='right' alt='Vengeful God' >
@@ -159,7 +159,7 @@ Projectile damage increased to 13, can hit Purple Bloons.
 
 <details>
 <summary>There can be only one.</summary>
-Attack speed is doubled, shoots 5 Vengeful True Sun God projectiles at 80% scale that have 30 damage and 30 pierce.
+Attack speed is doubled, shoots 5 Vengeful True Sun God projectiles at 80% scale that have 30 damage and 30 pierce, range increased by +15.
 </details>
 
 ## Ninja Monkey
