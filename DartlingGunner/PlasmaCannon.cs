@@ -2,10 +2,13 @@
 using System.Linq;
 using BTD_Mod_Helper.Api;
 using BTD_Mod_Helper.Api.Display;
+using HarmonyLib;
 using Il2Cpp;
 using Il2CppAssets.Scripts.Models.Bloons.Behaviors;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppAssets.Scripts.Models.Towers.Projectiles.Behaviors;
+using Il2CppAssets.Scripts.Simulation.SimulationBehaviors;
+using Il2CppAssets.Scripts.Simulation.Towers;
 using Il2CppAssets.Scripts.Unity;
 using Il2CppAssets.Scripts.Unity.Display;
 using Il2CppNinjaKiwi.Common.ResourceUtils;
@@ -83,5 +86,15 @@ public class PlasmaCannonDisplay : ModDisplay
         meshRenderer.AdjustHSV(-80, -.46f, 0, new Color(206 / 255f, 0 / 255f, 0), .5f);
 
         meshRenderer.SetOutlineColor(new Color(48 / 255f, 0 / 255f, 91 / 255f));
+    }
+}
+
+[HarmonyPatch(typeof(CrossTheStreamsSimBehavior), nameof(CrossTheStreamsSimBehavior.GetLineStartAndEndPoints))]
+internal static class CrossTheStreamsSimBehavior_GetLineStartAndEndPoints
+{
+    [HarmonyPrefix]
+    internal static bool Prefix(Tower tower)
+    {
+        return !tower.towerModel.appliedUpgrades.Contains(ModContent.GetId<PlasmaCannon>());
     }
 }

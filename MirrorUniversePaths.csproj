@@ -8,19 +8,12 @@
         <LangVersion>preview</LangVersion>
         <Optimize>False</Optimize>
         <DebugType>embedded</DebugType>
+        <Dependencies>PathsPlusPlus</Dependencies>
     </PropertyGroup>
+
     <ItemGroup>
         <Content Include=".github\workflows\build.yml"/>
     </ItemGroup>
 
     <Import Project="..\btd6.targets"/>
-
-    <ItemGroup>
-        <Reference Include="PathsPlusPlus">
-            <HintPath>$(BloonsTD6)\Mods\PathsPlusPlus.dll</HintPath>
-        </Reference>
-        <Reference Include="PathsPlusPlus" Condition="!Exists('$(BloonsTD6)\Mods\PathsPlusPlus.dll')">
-            <HintPath>$(BloonsTD6)\Disabled Mods\PathsPlusPlus.dll</HintPath>
-        </Reference>
-    </ItemGroup>
 </Project>
