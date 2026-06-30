@@ -27,6 +27,7 @@ public class PeriscopeTargeting : UpgradePlusPlus<SubNonSubmergePath>
         towerModel.RemoveBehavior<SubmergeEffectModel>();
         towerModel.RemoveBehavior<LinkProjectileRadiusToTowerRangeModel>();
         towerModel.RemoveBehavior<AttackModel>("Submerge");
+        towerModel.RemoveBehavior<CreateEffectAfterTimeModel>();
         towerModel.GetAttackModel().RemoveBehavior<SubmergedTargetModel>();
     }
 

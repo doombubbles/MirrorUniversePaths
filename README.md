@@ -23,7 +23,7 @@ Many paths are inspired by features of tier 3 towers that get overlooked/overwri
 
 Continues shooting tacks instead of replacing them with the ring of fire. Branches after Hot Shots.
 
-<img src='TackShooter/SuperheatedTacks.png' height=50 align='right' alt='Superheated Tacks' >
+<img src='TackShooter/SuperheatedTacks.png' width=50 align='right' alt='Superheated Tacks' >
 
 #### 4. Superheated Tacks ($3,500)
 
@@ -32,7 +32,7 @@ Continues shooting tacks instead of replacing them with the ring of fire. Branch
 Tacks damage is increase to 5, and they have +2 pierce and +2 radius.
 </details>
 
-<img src='TackShooter/CompleteCombustion.png' height=50 align='right' alt='Complete Combustion' >
+<img src='TackShooter/CompleteCombustion.png' width=50 align='right' alt='Complete Combustion' >
 
 #### 5. Complete Combustion ($45,000)
 
@@ -47,13 +47,13 @@ Same meteor attack as base 5xx. Tack damage increased to 8 with +4 to MOABs, ran
 
 Focuses on pure MOAB damage rather than stall/support. Branches after Deadly Precision.
 
-<img src='SniperMonkey/AssaultMOAB.png' height=50 align='right' alt='Assault MOAB' >
+<img src='SniperMonkey/AssaultMOAB.png' width=50 align='right' alt='Assault MOAB' >
 
 #### 4. Assault MOAB ($6,300)
 
 Deadly Precision's +50 Ceramic damage bonus now also applies to MOAB-class Bloons.
 
-<img src='SniperMonkey/ExecuteMOAB.png' height=50 align='right' alt='Execute MOAB' >
+<img src='SniperMonkey/ExecuteMOAB.png' width=50 align='right' alt='Execute MOAB' >
 
 #### 5. Execute MOAB ($32,000)
 
@@ -65,7 +65,7 @@ Deals 10x damage to MOAB-class Bloons that are below 25% health.
 
 Uses radioactive power for extra damage without submerging. Branches after Advanced Intel.
 
-<img src='MonkeySub/PeriscopeTargeting.png' height=50 align='right' alt='Periscope Targeting' >
+<img src='MonkeySub/PeriscopeTargeting.png' width=50 align='right' alt='Periscope Targeting' >
 
 #### 3. Periscope Targeting ($700)
 
@@ -74,7 +74,7 @@ Uses radioactive power for extra damage without submerging. Branches after Advan
 Grants camo detection, all projectiles deal bonus camo damage equal to their base damage.
 </details>
 
-<img src='MonkeySub/BloontoniumDarts.png' height=50 align='right' alt='Bloontonium Darts' >
+<img src='MonkeySub/BloontoniumDarts.png' width=50 align='right' alt='Bloontonium Darts' >
 
 #### 4. Bloontonium Darts ($2,400)
 
@@ -83,7 +83,7 @@ Grants camo detection, all projectiles deal bonus camo damage equal to their bas
 Dart damage increased to 2 like base 4xx, creates Fallout projectiles on first hitting a Bloon that have the same pierce, damage, and damage interval as the base 4xx attack. Lifespan is 2s, or 5s with Barbed Darts.
 </details>
 
-<img src='MonkeySub/RbmkFallout.png' height=50 align='right' alt='RBMK Fallout' >
+<img src='MonkeySub/RbmkFallout.png' width=50 align='right' alt='RBMK Fallout' >
 
 #### 5. RBMK Fallout ($28,000)
 
@@ -98,7 +98,7 @@ Dart damage increased to 5 like base 5xx, Fallout projectiles are 33% larger, an
 
 Continues shooting upgraded laser projectiles rather than switching to solid beams. Branches after Laser Cannon.
 
-<img src='DartlingGunner/PlasmaCannon.png' height=50 align='right' alt='Plasma Cannon' >
+<img src='DartlingGunner/PlasmaCannon.png' width=50 align='right' alt='Plasma Cannon' >
 
 #### 4. Plasma Cannon ($10,000)
 
@@ -107,7 +107,7 @@ Continues shooting upgraded laser projectiles rather than switching to solid bea
 Pierce increased by 5x, projectile scaled 1.25x, can pop leads, bonus MOAB damage increased to +10, laser shock lifespan to 5s
 </details>
 
-<img src='DartlingGunner/SunCannon.png' height=50 align='right' alt='Sun Cannon' >
+<img src='DartlingGunner/SunCannon.png' width=50 align='right' alt='Sun Cannon' >
 
 #### 5. Sun Cannon ($50,000)
 
@@ -122,7 +122,7 @@ Shoots 3 projectiles at a time, pierce increased a further 10x, scale now 1.5x t
 
 Doesn't become a Temple or enact sacrifices. Branches after Sun Avatar.
 
-<img src='SuperMonkey/SunDemigod.png' height=50 align='right' alt='Sun Demigod' >
+<img src='SuperMonkey/SunDemigod.png' width=50 align='right' alt='Sun Demigod' >
 
 #### 4. Sun Demigod ($50,000)
 
@@ -131,7 +131,7 @@ Doesn't become a Temple or enact sacrifices. Branches after Sun Avatar.
 Attack speed is halved, shoots 3 Sun Temple projectiles at 80% scale that have 5 damage and 20 pierce, range increased by +15.
 </details>
 
-<img src='SuperMonkey/SunGod.png' height=50 align='right' alt='Sun God' >
+<img src='SuperMonkey/SunGod.png' width=50 align='right' alt='Sun God' >
 
 #### 5. Sun God ($100,000)
 
@@ -144,7 +144,7 @@ Attack speed is doubled, shoots 5 True Sun God projectiles at 80% scale that hav
 
 Doesn't become a Temple or enact sacrifices, but is vengeful about it. Branches after Sun Avatar.
 
-<img src='SuperMonkey/VengefulAvatar.png' height=50 align='right' alt='Vengeful Avatar' >
+<img src='SuperMonkey/VengefulAvatar.png' width=50 align='right' alt='Vengeful Avatar' >
 
 #### 4. Vengeful Avatar ($100,000)
 
@@ -153,7 +153,7 @@ Doesn't become a Temple or enact sacrifices, but is vengeful about it. Branches 
 Projectile damage increased to 13, can hit Purple Bloons, range increased by +15
 </details>
 
-<img src='SuperMonkey/VengefulGod.png' height=50 align='right' alt='Vengeful God' >
+<img src='SuperMonkey/VengefulGod.png' width=50 align='right' alt='Vengeful God' >
 
 #### 5. Vengeful God ($500,000)
 
@@ -168,7 +168,7 @@ Attack speed is doubled, shoots 5 Vengeful True Sun God projectiles at 80% scale
 
 Amplifies Flash Bombs instead of getting Sticky Bombs. Branches after Flash Bomb.
 
-<img src='NinjaMonkey/Boomjitsu.png' height=50 align='right' alt='Boomjitsu' >
+<img src='NinjaMonkey/Boomjitsu.png' width=50 align='right' alt='Boomjitsu' >
 
 #### 4. Boomjitsu ($5,000)
 
@@ -177,7 +177,7 @@ Amplifies Flash Bombs instead of getting Sticky Bombs. Branches after Flash Bomb
 Flash bombs are every attack instead of every 4th. Flash bombs deal +4 damage to MOABs. Caltrops create a flash bomb explosion on exhaust.
 </details>
 
-<img src='NinjaMonkey/GrandBlasterNinja.png' height=50 align='right' alt='Grand-Blaster Ninja' >
+<img src='NinjaMonkey/GrandBlasterNinja.png' width=50 align='right' alt='Grand-Blaster Ninja' >
 
 #### 5. Grand-Blaster Ninja ($40,000)
 
@@ -192,7 +192,7 @@ Applies the base xx5 effects of flash bombs stunning MOABs for .325s, flash bomb
 
 Empowers Nail attacks instead of using Traps. Branches after Double Gun.
 
-<img src='EngineerMonkey/GalvanizedNails.png' height=50 align='right' alt='Galvanized Nails' >
+<img src='EngineerMonkey/GalvanizedNails.png' width=50 align='right' alt='Galvanized Nails' >
 
 #### 4. Galvanized Nails ($3,600)
 
@@ -201,7 +201,7 @@ Empowers Nail attacks instead of using Traps. Branches after Double Gun.
 Nail damage increased by +2, pops all Bloon types, cash per pop is 2x, Deconstruction damage bonus increased by 4
 </details>
 
-<img src='EngineerMonkey/Nailstorm.png' height=50 align='right' alt='Nailstorm' >
+<img src='EngineerMonkey/Nailstorm.png' width=50 align='right' alt='Nailstorm' >
 
 #### 5. Nailstorm ($45,000)
 

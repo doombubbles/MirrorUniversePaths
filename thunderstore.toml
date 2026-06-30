@@ -1,0 +1,32 @@
+[package]
+name = "MirrorUniversePaths"
+namespace = "doombubbles"
+description = "Adds a number of alternate tower path branches using Paths++. Many paths are inspired by features of tier 3 towers that get overlooked/overwritten by the tier 4 and 5 upgrades in their path, but now have a new chance to shine with reimagined upgrades."
+websiteUrl = "https://github.com/doombubbles/mirror-universe-paths"
+
+[package.dependencies]
+LavaGang-MelonLoader = "0.7.3"
+doombubbles-Btd6ModHelper = "3.6.5"
+doombubbles-PathsPlusPlus = "1.2.2"
+
+[build]
+icon = "./Icon.png"
+readme = "./README.md"
+outdir = "bin"
+
+[[build.copy]]
+source = "./bin/Release/MirrorUniversePaths.dll"
+target = "MirrorUniversePaths.dll"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["bloons-td-6"]
+categories = ["mods"]
